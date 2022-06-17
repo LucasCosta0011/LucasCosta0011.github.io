@@ -1,0 +1,16 @@
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <div class="container">
+    <h2>Posts</h2>
+    <ul class="mt-4">
+      {% for post in site.posts %}
+        <li class="list-group-item" style="width: max-content;">
+          <h6>{{post.date | date: "%b, %-d %Y"}}</h6>
+          <a style="text-decoration: none;" href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>
