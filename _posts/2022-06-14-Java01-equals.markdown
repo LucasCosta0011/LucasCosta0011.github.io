@@ -3,19 +3,23 @@ layout: post
 title:  "Comparando Strings com Java!"
 date:   2022-06-14 11:35:59 -0300
 categories: Dicas de Java
+frase: O Senhor é o meu pastor, nada me faltará. 
+pag: Salmo 23
 ---
 Existe várias maneiras de comparar `Strings` no Java. Vou usar neste exemplo, duas formas de comparação. A primeira, e mais comum é usando o método `equals` simples. A segunda é utilizando o `equalsIgnoreCase`.
 
 
-1-Exemplo usando `equals`:
+1- Exemplo usando `equals`:
 
 {% highlight ruby %}
+//Imagine uma entrada de dados que o usuário digitou "Exemplo" e enviou o formulário.
+String txtNome = txtNome.getText("Exemplo"); 
 
-String txtNome = txtNome.getText("Exemplo"); #=> Imagine uma entrada de dados que o usuário digitou "Exemplo" e enviou o formulário.
-String nome = "exemplo"; #=> Criei uma variável do tipo String;Recebendo o mesmo valor da entrada de dados, porém com a primeira letra minúscula.
+//Criei uma variável do tipo String;Recebendo o mesmo valor da entrada de dados, porém com a primeira letra minúscula.
+String nome = "exemplo"; 
 
 if(txtNome.equals(nome)){
-  #=> Segundo o exemplo acima o fluxo do código seguiria e não entraria nessa condição.
+  // Segundo o exemplo acima o fluxo do código seguiria e não entraria nessa condição.
 }
 
 O método `equals` diferencia letras minúsculas de maiúsculas.
@@ -29,7 +33,7 @@ O método `equals` diferencia letras minúsculas de maiúsculas.
 Usaremos as mesmas variáveis e valores do primeiro código.
 
 if(txtNome.equalsIgnoreCase(nome)){
-  #=> Neste caso, o fluxo do código entraria nessa condição.
+  // Neste caso, o fluxo do código entraria nessa condição.
 }
 
 O método `equalsIgnoreCase` trata letras minúsculas e maiúsculas, como se fossem iguais.
