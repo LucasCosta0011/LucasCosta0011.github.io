@@ -164,3 +164,5 @@ btnSair.onclick = () => {
 ```
 
 Resumo: Com este artigo vimos como criar um modal simples com `JavaScript` puro, `keyframes`, animações `CSS` e conceitos como `callbacks`, métodos assíncronos.
+
+Link para baixar o material: https://github.com/LucasCosta0011/Materiais-de-Apoio-Blog/blob/main/arquivos-blog/javascript/modal-js.rar
