@@ -7,7 +7,7 @@ frase: 'Então o Senhor Deus declarou: "Não é bom que o homem esteja só; fare
 pag: Gênesis 2:18
 ---
 
-### O objetivo é focar na lógica por trás do modal. Explicarei as partes do `CSS` que realmente importam para funcionar, e deixarei o arquivo completo para consulta no final do artigo.
+ O objetivo é focar na lógica por trás do modal. Explicarei as partes do `CSS` que realmente importam para funcionar, e deixarei o arquivo completo para consulta no final do artigo.
 
 Para começar vamos deixar o `HTML` assim:
 
@@ -136,7 +136,7 @@ btnModal.onclick = () => {
 ```
 Bom, tem mais um bonûs.
 A título de curiosidade. 
-### E se quiséssemos dar efeito de transição, na hora que o evento sair fosse disparado?
+ E se quiséssemos dar efeito de transição, na hora que o evento sair fosse disparado?
 Para isso, precisamos entender como o código é executado.
 Porque este exemplo não funcionária?
 Quando o efeito fosse chamado, o modal quase no mesmo instânte ficaria invisível.
