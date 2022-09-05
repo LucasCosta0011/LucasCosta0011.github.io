@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Populando um ListView em C#"
-date:   2022-06-22 06:00:00 -0300
+date:   2022-09-05 15:00:00 -0300
 categories: C# xamarin android
 frase: 'Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que não se vêem".'
 pag: Hebreus 11
