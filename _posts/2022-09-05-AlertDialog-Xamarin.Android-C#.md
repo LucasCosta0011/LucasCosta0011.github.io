@@ -9,10 +9,10 @@ pag: Salmos 91:7
 
 ### Explicação de cada linha
 
-- Instância da classe AlertDialog
+- Instância da classe AlertDialog.Builder (Sendo Builder o método e AlertDialog uma subclasse da classe Dialog)
 - ``` Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this); ```
 
-- Criamos o AlertDialog com o método Builder
+- Criamos o AlertDialog com o método Create
 - ``` Android.App.AlertDialog alerta = builder.Create(); ```
 
 - define se o diálogo pode ser cancelado pela tecla Android.Views.KeyEvent.KEYCODE_BACK.
@@ -52,3 +52,5 @@ pag: Salmos 91:7
   });
   alerta.Show();
 ```
+
+Referência: https://www.macoratti.net/16/07/xamand_dial1.htm
