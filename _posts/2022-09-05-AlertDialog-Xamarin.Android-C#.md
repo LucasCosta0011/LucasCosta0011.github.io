@@ -11,18 +11,25 @@ pag: Salmos 91:7
 
 - Instância da classe AlertDialog
 ``` Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this); ```
+</br>
 - Criamos o AlertDialog com o método Builder
 ``` Android.App.AlertDialog alerta = builder.Create(); ```
+</br>
 - define se o diálogo pode ser cancelado pela tecla Android.Views.KeyEvent.KEYCODE_BACK.
 ``` SetCancelable(true)  ```
+</br>
 - Define o ícone
 ``` alerta.SetIcon(Android.Resource.Drawable.IcDialogInfo); ```
+</br>
 - Define o título
 ``` alerta.SetTitle(""); ```
+</br>
 - Define a mensagem
 ``` alerta.SetMessage("Mensagem de exemplo."); ```
-- Cria um botão com um evento click (Callback)  `IMPORTANTE: `Podemos exibir no máximo três botões.
+</br>
+- Cria um botão com um evento click (Callback)  `IMPORTANTE:` Podemos exibir no máximo três botões.
 ``` alerta.SetButton("", (s, ev) => {} ```
+</br>
 - Mostra o alerta na tela
 alerta.Show();
 
